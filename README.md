@@ -8,3 +8,5 @@ En este repositorio encontrarán todos los contenidos que usaremos a lo largo de
 - [Guía Terminal de Comandos](https://jonmircha.com/terminal).
 - [Guía _MarkDown_](https://jonmircha.com/markdown).
 - [Guía _Git & GitHub_](https://jonmircha.com/git).
+
+Hoy es 23 de septiembre
