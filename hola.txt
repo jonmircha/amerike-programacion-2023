@@ -1,1 +1,6 @@
-Hola mundo Git
+Hola mundo Git y Github
+
+Aprendiendo a manejar el historial
+
+Aprendiendo  a editar el último commit
+
