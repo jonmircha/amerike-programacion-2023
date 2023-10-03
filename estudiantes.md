@@ -17,6 +17,19 @@ Hola soy tu amigo y docente digital.
 
 ## Estudiantes
 
+### Noé Moisés Galindo Leal
+
+Hola!, Soy un chico de 24 años, con iniciativa a querer mejorar mi persona y en cualquier aspecyo de mi vida, tengo muchas ambiciones, me gusta los deportes extremos los videojuegos, la pizza,la música, la fotografía y muchas cosas más. Tengo muchas metas que cumplir en lo largo de mi vida, pero actualmente tengo dos a la vista, una de ellas es graduarme de la universidad y poder ejercer lo aprendido; la otra es querer conquistar _las 10 montañas más altas de México_. Despues de superar esas metas ire a la siguiente y a la siguiente y no pararé hasta estar en donde quiero y anhelo estar.
+
+- [Mi correo](cdmx2819@amerike.edu.mx)
+- [Mi perfil de HitHub](https://github.com/Noah-Moi610)
+
+![Este soy yo](./img/Yo%20mero%20(Moi).JPG)
+
+_Posdata_:Jon solo es poner estos datos o también pongo mis datos de domicilio, mi estado civil, mis datos de tarjeta, mi RFC, etc XD. (Nah no se crea era puro choro)
+
+---
+
 ### Ricardo Andrés Amano Arias
 
 Soy el alumno más viejo de Amérike (creo), cursando mi segunda licenciatura.
