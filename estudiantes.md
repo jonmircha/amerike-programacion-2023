@@ -16,3 +16,14 @@ Hola soy tu amigo y docente digital.
 ---
 
 ## Estudiantes
+
+### Ricardo Andrés Amano Arias
+
+Soy el alumno más viejo de Amérike (creo), cursando mi segunda licenciatura.
+
+- [cdmx2821@amerike.edu.mx](cdmx2821@amerike.edu.mx)
+- [_GitHub/ricardoaamano_](https://github.com/ricardoaamano)
+
+![_Ricardo Amano_](./img/foto_de_ricardo_amano.jpeg)
+
+---
