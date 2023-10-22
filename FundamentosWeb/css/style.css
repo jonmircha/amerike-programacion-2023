@@ -1,0 +1,91 @@
+/* Cometario en CSS */
+/* 
+3 tipos de selectores básicos:
+  - Etiquetas
+  - Ids
+  - Clases
+*/
+
+:root {
+  --color-link: #08c;
+  --font-text: "Montserrat", sans-serif;
+  --font-title: "Playpen Sans", cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: var(--font-text);
+}
+
+a {
+  color: orange;
+}
+
+a:visited {
+  color: blueviolet;
+}
+
+a:hover {
+  color: var(--color-link);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-title);
+}
+
+h2 {
+  color: greenyellow;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#titulo {
+  background-color: aquamarine;
+  color: chocolate;
+  text-align: center;
+}
+
+#menu {
+  background-color: skyblue;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-green {
+  color: green;
+}
+
+.text-blue {
+  color: blue;
+}

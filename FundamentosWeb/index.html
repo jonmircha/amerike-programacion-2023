@@ -8,148 +8,385 @@
       name="description"
       content="Aquí va una descripción del contenido de este documento no más de 165 caracteres"
     />
+    <link rel="icon" href="img/git-flow.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playpen+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <!--  <style>
+      body {
+        font-family: sans-serif;
+      }
+    </style> -->
   </head>
   <body>
     <!-- Esto es un comentario -->
-    <h1 id="titulo">Fundamentos de Programación Web</h1>
+    <header>
+      <h1 id="titulo">Fundamentos de Programación Web</h1>
+      <nav id="menu">
+        <ul>
+          <li><a href="#encabezados">Encabezados</a></li>
+          <li><a href="#etiquetas-texto">Etiquetas de Texto</a></li>
+          <li><a href="#listas">Listas</a></li>
+          <li><a href="#tablas">Tablas</a></li>
+          <li><a href="#enlaces">Enlaces</a></li>
+          <li><a href="#imagenes">Imágenes</a></li>
+          <li><a href="#iframes">Iframes</a></li>
+          <li><a href="#etiquetas-semanticas">Etiquetas Semánticas</a></li>
+          <li><a href="#detalle">Detalle</a></li>
+          <li><a href="#formularios">Formularios</a></li>
+          <li><a href=""></a></li>
+        </ul>
+      </nav>
+    </header>
     <hr />
-    <h2>Tipos de Encabezados</h2>
-    <h1>Encabezado 1</h1>
-    <h2>Encabezado 2</h2>
-    <h3>Encabezado 3</h3>
-    <h4>Encabezado 4</h4>
-    <h5>Encabezado 5</h5>
-    <h6>Encabezado 6</h6>
+    <section id="encabezados">
+      <h2>Tipos de Encabezados</h2>
+      <h1>Encabezado 1</h1>
+      <h2>Encabezado 2</h2>
+      <h3>Encabezado 3</h3>
+      <h4>Encabezado 4</h4>
+      <h5>Encabezado 5</h5>
+      <h6>Encabezado 6</h6>
+      <a href="#titulo">Regresar☝🏻</a>
+    </section>
     <hr />
-    <h2>Etiquetas de Texto</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, autem.
+    <section id="etiquetas-texto">
+      <h2 class="text-center">Etiquetas de Texto</h2>
+      <p class="text-right text-red">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, autem.
+        <br />
+        Voluptates excepturi impedit illum optio, explicabo pariatur saepe
+        officiis quibusdam nobis modi eos ipsam molestias omnis repellat dolores
+        obcaecati ut.
+      </p>
+      <p class="text-center text-green">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores iste
+        unde iure nisi id, dolor nemo cum alias consectetur atque minus
+        accusamus repellat accusantium possimus, iusto omnis itaque quas
+        assumenda!
+      </p>
+      <p class="text-left text-blue">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+        debitis animi perferendis <i>reprehenderit natus</i> nulla eaque
+        aspernatur, illum amet laborum ut <b>architecto</b> esse ipsa iure odio!
+        Tempore ex cum libero!
+      </p>
+      <p>
+        <small>Letras pequeñas</small>
+      </p>
+      <a href="#titulo">Regresar☝🏻</a>
+    </section>
+    <hr />
+    <section id="listas">
+      <h2>Listas</h2>
+      <h3>Listas ordenadas</h3>
+      <ol>
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+      </ol>
+      <ol type="a">
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+      </ol>
+      <ol start="21">
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+      </ol>
+      <ol reversed>
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+      </ol>
+      <h3>Listas Desordenadas</h3>
+      <ul>
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otoño</li>
+        <li>Invierno</li>
+      </ul>
+      <a href="#titulo">Regresar☝🏻</a>
+    </section>
+    <hr />
+    <section id="tablas">
+      <h2>Tablas</h2>
+      <table border="1">
+        <tr>
+          <td>País</td>
+          <td>Ciudad</td>
+          <td>Continente</td>
+          <td>Comida</td>
+        </tr>
+        <tr>
+          <td>México</td>
+          <td>CDMX</td>
+          <td>América</td>
+          <td>Quesadillas</td>
+        </tr>
+        <tr>
+          <td>Francia</td>
+          <td>París</td>
+          <td>Europa</td>
+          <td>Croassaint</td>
+        </tr>
+        <tr>
+          <td>Japón</td>
+          <td>Tokyo</td>
+          <td>Asia</td>
+          <td>Sushi</td>
+        </tr>
+      </table>
+      <a href="#titulo">Regresar☝🏻</a>
+    </section>
+    <hr />
+    <section id="enlaces">
+      <h2>Enlaces</h2>
+      <a href="hola.html">Ir al documento Hola</a>
+      <a href="https://jonmircha.com/html" target="_blank">
+        Guía rápida HTML & CSS
+      </a>
+      <a href="#titulo">Regresar☝🏻</a>
+    </section>
+    <hr />
+    <section id="imagenes">
+      <h2>Imágenes</h2>
+      <img
+        src="img/git-flow.png"
+        alt="Flujo básico para trabajar en Git y Github"
+      />
+      <img
+        src="https://jonmircha.com/img/blog/event-loop-nodejs.gif"
+        alt="Explicación del Event Loop de Node.js"
+      />
+      <img src="img/html-5.svg" alt="Logo HTML5" />
+      <svg
+        width="256px"
+        height="361px"
+        viewBox="0 0 256 361"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        preserveAspectRatio="xMidYMid"
+      >
+        <g>
+          <path
+            d="M255.554813,70.7657143 L232.31367,331.125451 L127.843868,360.087912 L23.6617143,331.166242 L0.445186813,70.7657143 L255.554813,70.7657143 L255.554813,70.7657143 Z"
+            fill="#E44D26"
+          ></path>
+          <path
+            d="M128,337.950242 L212.416703,314.546637 L232.277802,92.0573187 L128,92.0573187 L128,337.950242 L128,337.950242 Z"
+            fill="#F16529"
+          ></path>
+          <path
+            d="M82.8202198,155.932132 L128,155.932132 L128,123.994725 L47.917011,123.994725 L48.6814945,132.562989 L56.530989,220.572835 L128,220.572835 L128,188.636132 L85.7389011,188.636132 L82.8202198,155.932132 L82.8202198,155.932132 Z"
+            fill="#EBEBEB"
+          ></path>
+          <path
+            d="M90.0177582,236.54189 L57.957978,236.54189 L62.4323516,286.687648 L127.853011,304.848879 L128,304.808088 L128,271.580132 L127.860044,271.617407 L92.2915165,262.013187 L90.0177582,236.54189 L90.0177582,236.54189 Z"
+            fill="#EBEBEB"
+          ></path>
+          <path
+            d="M24.1807473,0 L40.4107253,0 L40.4107253,16.0351648 L55.2573187,16.0351648 L55.2573187,0 L71.488,0 L71.488,48.5584176 L55.258022,48.5584176 L55.258022,32.2981978 L40.4114286,32.2981978 L40.4114286,48.5584176 L24.1814505,48.5584176 L24.1814505,0 L24.1807473,0 L24.1807473,0 Z"
+            fill="#000000"
+          ></path>
+          <path
+            d="M92.8309451,16.1026813 L78.5427692,16.1026813 L78.5427692,0 L123.356835,0 L123.356835,16.1026813 L109.06233,16.1026813 L109.06233,48.5584176 L92.8316484,48.5584176 L92.8316484,16.1026813 L92.8309451,16.1026813 L92.8309451,16.1026813 Z"
+            fill="#000000"
+          ></path>
+          <path
+            d="M130.469275,0 L147.392703,0 L157.802901,17.061978 L168.202549,0 L185.132308,0 L185.132308,48.5584176 L168.969143,48.5584176 L168.969143,24.4901978 L157.802901,41.7554286 L157.523692,41.7554286 L146.349714,24.4901978 L146.349714,48.5584176 L130.469275,48.5584176 L130.469275,0 L130.469275,0 Z"
+            fill="#000000"
+          ></path>
+          <path
+            d="M193.20967,0 L209.444571,0 L209.444571,32.5077802 L232.268659,32.5077802 L232.268659,48.5584176 L193.20967,48.5584176 L193.20967,0 L193.20967,0 Z"
+            fill="#000000"
+          ></path>
+          <path
+            d="M127.889582,220.572835 L167.216527,220.572835 L163.509451,261.992791 L127.889582,271.606857 L127.889582,304.833407 L193.362286,286.687648 L193.842637,281.291956 L201.347516,197.212132 L202.126769,188.636132 L127.889582,188.636132 L127.889582,220.572835 L127.889582,220.572835 Z"
+            fill="#FFFFFF"
+          ></path>
+          <path
+            d="M127.889582,155.854066 L127.889582,155.932132 L205.032791,155.932132 L205.673495,148.753582 L207.128615,132.562989 L207.892396,123.994725 L127.889582,123.994725 L127.889582,155.854066 L127.889582,155.854066 Z"
+            fill="#FFFFFF"
+          ></path>
+        </g>
+      </svg>
+      <a href="#titulo">Regresar☝🏻</a>
+    </section>
+    <hr />
+    <section id="iframes">
+      <h2>Iframe</h2>
+      <iframe
+        width="100%"
+        height="600"
+        src="pdf/JavaScriptTheGoodParts-DouglasCrockford.pdf"
+        frameborder="0"
+      ></iframe>
       <br />
-      Voluptates excepturi impedit illum optio, explicabo pariatur saepe
-      officiis quibusdam nobis modi eos ipsam molestias omnis repellat dolores
-      obcaecati ut.
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores iste unde
-      iure nisi id, dolor nemo cum alias consectetur atque minus accusamus
-      repellat accusantium possimus, iusto omnis itaque quas assumenda!
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur debitis
-      animi perferendis <i>reprehenderit natus</i> nulla eaque aspernatur, illum
-      amet laborum ut <b>architecto</b> esse ipsa iure odio! Tempore ex cum
-      libero!
-    </p>
-    <p>
-      <small>Letras pequeñas</small>
-    </p>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/wFj7d_fnYTU?si=8t_5Mn5ZMxP-KkDJ"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <br />
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.8313470435337!2d-99.1589783245017!3d19.376453981891082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff82b342aee3%3A0x93244993291fd0cc!2sUniversidad%20Amerike%20Campus%20CDMX!5e0!3m2!1ses-419!2smx!4v1697322635880!5m2!1ses-419!2smx"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <a href="#titulo">Regresar☝🏻</a>
+    </section>
     <hr />
-    <h2>Listas</h2>
-    <h3>Listas ordenadas</h3>
-    <ol>
-      <li>Primavera</li>
-      <li>Verano</li>
-      <li>Otoño</li>
-      <li>Invierno</li>
-    </ol>
-    <ol type="a">
-      <li>Primavera</li>
-      <li>Verano</li>
-      <li>Otoño</li>
-      <li>Invierno</li>
-    </ol>
-    <ol start="21">
-      <li>Primavera</li>
-      <li>Verano</li>
-      <li>Otoño</li>
-      <li>Invierno</li>
-    </ol>
-    <ol reversed>
-      <li>Primavera</li>
-      <li>Verano</li>
-      <li>Otoño</li>
-      <li>Invierno</li>
-    </ol>
-    <h3>Listas Desordenadas</h3>
-    <ul>
-      <li>Primavera</li>
-      <li>Verano</li>
-      <li>Otoño</li>
-      <li>Invierno</li>
-    </ul>
+    <section id="etiquetas-semanticas">
+      <h2>Etiquetas Semánticas</h2>
+      <div>Esto es una div</div>
+      <header>Esto es un header</header>
+      <nav>Esto es un nav</nav>
+      <main>Esto es un main</main>
+      <aside>Esto es un aside</aside>
+      <article>Esto es un article</article>
+      <section>Esto es una section</section>
+      <footer>Esto es un footer</footer>
+      <a href="#titulo">Regresar☝🏻</a>
+    </section>
+    <section id="detalle">
+      <h2>Detalle</h2>
+      <details>
+        <summary><b>Texto introductorio del detalle</b></summary>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione mollitia qui, dicta nihil eos corporis laborum totam ad
+            neque quo iusto repellat alias impedit temporibus eaque maiores
+            dolorum cumque?
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
+            expedita sapiente placeat reiciendis explicabo quasi vel sequi,
+            officia ea atque vitae temporibus dolor pariatur repudiandae
+            obcaecati itaque? Totam, nobis excepturi.
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+            neque. Quis neque illum tempora est? Ullam, repudiandae voluptate
+            facilis sunt excepturi ea, doloribus ut natus dolores necessitatibus
+            quam iusto commodi.
+          </p>
+        </div>
+      </details>
+      <details open>
+        <summary><b>Texto introductorio del detalle</b></summary>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione mollitia qui, dicta nihil eos corporis laborum totam ad
+            neque quo iusto repellat alias impedit temporibus eaque maiores
+            dolorum cumque?
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
+            expedita sapiente placeat reiciendis explicabo quasi vel sequi,
+            officia ea atque vitae temporibus dolor pariatur repudiandae
+            obcaecati itaque? Totam, nobis excepturi.
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+            neque. Quis neque illum tempora est? Ullam, repudiandae voluptate
+            facilis sunt excepturi ea, doloribus ut natus dolores necessitatibus
+            quam iusto commodi.
+          </p>
+        </div>
+      </details>
+      <a href="#titulo">Regresar☝🏻</a>
+    </section>
     <hr />
-    <h2>Tablas</h2>
-    <table border="1">
-      <tr>
-        <td>País</td>
-        <td>Ciudad</td>
-        <td>Continente</td>
-        <td>Comida</td>
-      </tr>
-      <tr>
-        <td>México</td>
-        <td>CDMX</td>
-        <td>América</td>
-        <td>Quesadillas</td>
-      </tr>
-      <tr>
-        <td>Francia</td>
-        <td>París</td>
-        <td>Europa</td>
-        <td>Croassaint</td>
-      </tr>
-      <tr>
-        <td>Japón</td>
-        <td>Tokyo</td>
-        <td>Asia</td>
-        <td>Sushi</td>
-      </tr>
-    </table>
+    <section id="formularios">
+      <h2>Formularios</h2>
+      <form action="" method="get">
+        <input type="text" />
+        <input type="email" />
+        <input type="number" />
+        <input type="date" />
+        <input type="datetime-local" />
+        <input type="color" />
+        <input type="file" />
+        <input type="file" multiple />
+        <input type="search" />
+        <input type="checkbox" />
+        <input type="radio" />
+        <input type="password" />
+        <input type="button" value="Botón" />
+        <input type="reset" />
+        <input type="hidden" />
+        <input type="submit" />
+        <select>
+          <option value="">Opción 1</option>
+          <option value="">Opción 2</option>
+          <option value="">Opción 3</option>
+          <option value="">Opción 4</option>
+        </select>
+        <select multiple>
+          <option value="">Opción 1</option>
+          <option value="">Opción 2</option>
+          <option value="">Opción 3</option>
+          <option value="">Opción 4</option>
+        </select>
+        <textarea cols="30" rows="5"></textarea>
+      </form>
+      <h2>Formulario de contacto</h2>
+      <form action="https://formsubmit.co/jonmircha@gmail.com" method="post">
+        <div>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+        </div>
+        <div>
+          <label for="correo">Email:</label>
+          <input type="email" id="correo" name="correo" required />
+        </div>
+        <div>
+          <label for="asunto">Asunto:</label>
+          <input type="text" id="asunto" name="asunto" />
+        </div>
+        <div>
+          <label for="comentarios">Comentarios</label>
+          <textarea id="comentarios" name="comentarios" required></textarea>
+        </div>
+        <div>
+          <input type="submit" value="Enviando Información" />
+          <input
+            type="hidden"
+            name="_next"
+            value="http://127.0.0.1:5500/FundamentosWeb/hola.html"
+          />
+          <input
+            type="hidden"
+            name="_subject"
+            value="Mensaje desde el Lab Rojo"
+          />
+          <input type="hidden" name="_cc" value="jmiranda@amerike.edu.mx" />
+        </div>
+      </form>
+      <a href="#titulo">Regresar☝🏻</a>
+    </section>
     <hr />
-    <h2>Enlaces</h2>
-    <a href="hola.html">Ir al documento Hola</a>
-    <a href="https://jonmircha.com/html" target="_blank">
-      Guía rápida HTML & CSS
-    </a>
-    <a href="#titulo">Regresar al título</a>
-    <hr />
-    <h2>Imágenes</h2>
-    <img
-      src="img/git-flow.png"
-      alt="Flujo básico para trabajar en Git y Github"
-    />
-    <img
-      src="https://jonmircha.com/img/blog/event-loop-nodejs.gif"
-      alt="Explicación del Event Loop de Node.js"
-    />
-    <hr />
-    <h2>Iframe</h2>
-    <iframe
-      width="100%"
-      height="600"
-      src="pdf/JavaScriptTheGoodParts-DouglasCrockford.pdf"
-      frameborder="0"
-    ></iframe>
-    <br />
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/wFj7d_fnYTU?si=8t_5Mn5ZMxP-KkDJ"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen
-    ></iframe>
-    <br />
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.8313470435337!2d-99.1589783245017!3d19.376453981891082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff82b342aee3%3A0x93244993291fd0cc!2sUniversidad%20Amerike%20Campus%20CDMX!5e0!3m2!1ses-419!2smx!4v1697322635880!5m2!1ses-419!2smx"
-      width="600"
-      height="450"
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-    ></iframe>
-    <hr />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
   </body>
 </html>
