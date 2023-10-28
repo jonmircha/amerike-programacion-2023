@@ -1,0 +1,51 @@
+html {
+  font-size: 16px;
+}
+
+p {
+  color: rebeccapurple !important;
+}
+
+p {
+  color: blue;
+}
+
+li {
+  background-color: beige;
+}
+
+.ejemplo-1 p {
+  color: red;
+}
+
+.box {
+  background-color: bisque;
+  margin: 2rem;
+  border: thin solid #000;
+  padding: 1rem;
+}
+
+.lista li:first-child {
+  background-color: aqua;
+}
+
+.lista li:last-child {
+  background-color: burlywood;
+}
+
+.lista li:nth-child(5),
+.lista li:nth-child(6) {
+  background-color: cadetblue;
+}
+
+.lista li:nth-child(4) {
+  background-color: blue;
+}
+
+.lista-pares-impares li:nth-child(even) {
+  background-color: #ccc;
+}
+
+.lista-pares-impares li:nth-child(odd) {
+  background-color: #666;
+}
