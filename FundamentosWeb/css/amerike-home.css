@@ -1,0 +1,20 @@
+.bg-modelo-educativo {
+  background-image: url(https://amerike.edu.mx/wp-content/uploads/2023/09/banner-pagina-web2.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.bg-modelo-educativo-overlay {
+  background-color: rgba(192, 52, 235, 0.7);
+}
+
+.bg-partners {
+  background-image: url(https://amerike.edu.mx/wp-content/uploads/2023/05/8.jpg;);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.bg-partners-overlay {
+  background-color: rgba(52, 235, 55, 0.7);
+}
