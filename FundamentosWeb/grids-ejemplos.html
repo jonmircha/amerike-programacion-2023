@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Grids Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1>Grids Bootstrap</h1>
+    <h2>Desplazar columnas</h2>
+    <!-- .container>section.row>article.border.col-12.col.lg-6*6{Elemento $} -->
+    <div class="container bg-dark text-white">
+      <section class="row">
+        <article class="border col-12 col-lg-3">Elemento 1</article>
+        <article class="border col-12 col-lg-3 offset-lg-1">Elemento 2</article>
+        <article class="border col-12 col-lg-3 offset-lg-2">Elemento 3</article>
+        <article class="border col-12 col-lg-3 offset-lg-4">Elemento 4</article>
+        <article class="border col-12 col-lg-3 offset-lg-2">Elemento 5</article>
+        <article class="border col-12 col-lg-3">Elemento 6</article>
+      </section>
+    </div>
+    <h2>Columnas impares</h2>
+    <div class="container bg-dark text-white">
+      <section class="row">
+        <article class="border col-12 col-lg">Elemento 1</article>
+        <article class="border col-12 col-lg">Elemento 2</article>
+        <article class="border col-12 col-lg">Elemento 3</article>
+        <article class="border col-12 col-lg-3">Elemento 4</article>
+        <article class="border col-12 col-lg">Elemento 5</article>
+        <article class="border col-12 col-lg">Elemento 6</article>
+        <article class="border col-12 col-lg">Elemento 7</article>
+      </section>
+    </div>
+    <div class="container bg-dark text-white">
+      <section class="row">
+        <article class="border col-12 col-lg-2 offset-lg-1">Elemento 1</article>
+        <article class="border col-12 col-lg-2">Elemento 2</article>
+        <article class="border col-12 col-lg-2">Elemento 3</article>
+        <article class="border col-12 col-lg-2">Elemento 4</article>
+        <article class="border col-12 col-lg-2">Elemento 5</article>
+      </section>
+    </div>
+    <h2>Maquetado en ZigZag</h2>
+    <div class="container">
+      <section class="row">
+        <article class="col-12 col-lg-6">
+          <h2>Invest, trade and send cryptos</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            dolorem ab, obcaecati est vel impedit nulla harum eveniet maiores
+            autem magni. Sit ratione consectetur dicta tempore eius temporibus.
+            Voluptates, facilis.
+          </p>
+        </article>
+        <article class="col-12 col-lg-6">
+          <img
+            src="https://bitso.com/_next/image.jpg?url=%2F_next%2Fstatic%2Fmedia%2Fconsumer-1-br.53ea4ed6.png&w=1200&q=100"
+            alt="Imagen"
+            class="img-fluid"
+          />
+        </article>
+      </section>
+      <section class="row">
+        <article class="col-12 col-lg-6 order-lg-1">
+          <h2>Buying low and selling high just got easier</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            dolorem ab, obcaecati est vel impedit nulla harum eveniet maiores
+            autem magni. Sit ratione consectetur dicta tempore eius temporibus.
+            Voluptates, facilis.
+          </p>
+        </article>
+        <article class="col-12 col-lg-6">
+          <img
+            src="https://bitso.com/_next/image.jpg?url=%2F_next%2Fstatic%2Fmedia%2Fconsumer-2-us.55294aab.png&w=1200&q=100"
+            alt="Imagen"
+            class="img-fluid"
+          />
+        </article>
+      </section>
+      <section class="row">
+        <article class="col-12 col-lg-6">
+          <h2>Buy your favorite crypto automatically</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+            dolorem ab, obcaecati est vel impedit nulla harum eveniet maiores
+            autem magni. Sit ratione consectetur dicta tempore eius temporibus.
+            Voluptates, facilis.
+          </p>
+        </article>
+        <article class="col-12 col-lg-6">
+          <img
+            src="https://bitso.com/_next/image.jpg?url=%2F_next%2Fstatic%2Fmedia%2Fconsumer-3-br.5b6a243a.png&w=1200&q=100"
+            alt="Imagen"
+            class="img-fluid"
+          />
+        </article>
+      </section>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
